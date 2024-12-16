@@ -1,0 +1,142 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./Components/Assets/pic1.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  color: white;
+  
+}
+
+
+header {
+  background: rgba(244, 244, 244, 0.8); 
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  margin: 20px;
+}
+
+#navigation {
+  background-color: blue; 
+  padding: 10px; 
+  text-align: center; 
+}
+
+#navigation button {
+  color: white; 
+  background-color: transparent; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s; 
+}
+
+#navigation button:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+}
+
+/* form {
+  margin-bottom: 20px;
+} */
+
+/* input {
+  margin: 5px;
+} */
+
+button {
+  margin-top: 10px;
+}
+
+header {
+  position: relative;
+  height: 50px;
+}
+
+#headingText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: blue;
+  width: 100%;
+  text-align: center;
+}
+.links{
+  display:flex ;
+  gap: 10px;
+  height: 100%;
+  align-items: flex-end;
+  z-index: 5;
+}
+.links a{
+  height: 100%;
+  vertical-align: bottom;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+
+  10% {
+      opacity: 1;
+  }
+
+  90% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+.fade {
+  animation: fadeIn 10s linear infinite;
+}
+
+#userStatus {
+  color: green;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border: 2px solid black;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em; /* Increase size for h2 */
+  margin: 20px 0; /* Add spacing above and below */
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.8em; /* Increase size for h3 */
+  margin: 10px 0; /* Add spacing above and below */
+}
+
+
